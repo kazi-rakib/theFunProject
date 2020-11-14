@@ -61,6 +61,17 @@ footer {
     padding: 10px;
 }
 
+footer .disclaimer {
+    background: #333;
+    color: #888;
+    padding: 5px 3px;
+}
+
+footer .disclaimer a {
+    text-decoration: none;
+    color: #bbb;
+}
+
 footer .copyright-info a {
     text-decoration: none;
     color: #D35800;
