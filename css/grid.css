@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
 }
 
 body {
@@ -45,7 +44,7 @@ body {
 
 @media (max-width: 558px) {
     .column {
-        flex: 100%;
+        flex: 50%;
     }
 }
 
