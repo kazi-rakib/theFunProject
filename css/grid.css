@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,7 +14,16 @@ body {
 
 .header {
     text-align: center;
-    padding: 25px;
+    padding: 25px;    
+}
+
+.banner img {
+    width: 100%;
+    /* background: url('../img/selected/30.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+
 }
 
 .container {
