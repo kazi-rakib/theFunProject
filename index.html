@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Amazing University of Chittagong!</title>
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="cu.png">
 
     <link rel="stylesheet" href="css/grid.css">
 </head>
@@ -15,9 +16,9 @@
         <p>Only a fraction of the extra-ordinary campus.</p>
     </div>
 
-    <div class="banner">
+    <div class="banner" onclick="displayNext()">
         <figure>
-            <img src="img/selected/30.jpg" alt="Showcase Photo">
+            <img id="showcase-img" src="img/selected/30.jpg" alt="Showcase Photo">
         <figcaption></figcaption>
         </figure>
     </div>
@@ -80,13 +81,14 @@
 
     <footer>
         <section class="disclaimer">
-            Note: This site has NO affiliation with the <a href="http://cu.ac.bd/" target="_blank" rel="noopener noreferrer">University of Chittagong</a>
+            Note: This site has NO affiliation with the <a href="http://cu.ac.bd/" target="_blank" rel="noopener noreferrer">University of Chittagong</a>.
         </section>
         <section class="copyright-info">
             &copy; All right reserved. <br> Made with &hearts; by <a href="https://kazi-rakib.github.io/" target="_blank">K M Rakib Hasan</a>
         </section>
     </footer>
 
+    <script src="js/main.js"></script>
 </body>
 
 </html>
