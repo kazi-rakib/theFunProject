@@ -9,6 +9,8 @@ function displayNext() {
     let picId = `img/${currentPic}.jpg`;
     // alert(picId)
     document.getElementById('showcase-img').src=picId;
-    // if(currentPic >= 234) currentPic = 0;
+    if(currentPic >= 234) currentPic = 0;
     currentPic += 1;
 }
+
+setInterval(displayNext, 3000);
