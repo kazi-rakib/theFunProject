@@ -29,13 +29,14 @@ body {
 }
 
 .banner img {
-    max-width: 100%;
+    height: 60vh;
+    min-width: 100vw;
     /* background: url('../img/selected/30.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; */
     /* margin: auto; */
-    height: 70vh;
+    /* height: 70vh; */
 }
 /* 
 .banner::before {
