@@ -38,6 +38,16 @@ body {
     /* margin: auto; */
     /* height: 70vh; */
 }
+
+@media (min-width: 600px) {
+    .banner img {
+      /* background-color: lightblue; */
+      height: 70vh;
+      min-width: 30vw;
+      max-width: 100%;
+    }
+}
+
 /* 
 .banner::before {
     content: '<';
