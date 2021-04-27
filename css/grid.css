@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,7 +10,7 @@
 
 body {
     font-size: 1rem;
-    font-family: sans-serif;
+    font-family: 'Pacifico', cursive, sans-serif;
     margin: 0;
     padding: 0;
     background: #eee;
@@ -105,7 +107,7 @@ body {
 footer {
     background: #272727;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, monospace;
+    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif, monospace;
     font-size: 1.4rem;
     color: #fff;
     padding: 10px;
@@ -123,6 +125,7 @@ footer .disclaimer a {
 }
 
 footer .copyright-info a {
+    font-family: 'Pacifico', cursive;
     text-decoration: none;
     color: #D35800;
 }
